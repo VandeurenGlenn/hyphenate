@@ -1,0 +1,34 @@
+{
+  "name": "@vandeurenglenn/hyphenate",
+  "version": "1.0.0",
+  "description": "Simple Uppercase to Hyphen",
+  "main": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "keywords": [
+    "hyphenate",
+    "uppercase",
+    "hyphen",
+    "lowercase"
+  ],
+  "author": "VandeurenGlenn",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/hyphenate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/hyphenate/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/hyphenate#readme"
+}

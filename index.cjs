@@ -1,0 +1,1 @@
+module.exports = string => string.replace(/([a-zA-Z])(?=[A-Z])/g, '$1-').toLowerCase()
